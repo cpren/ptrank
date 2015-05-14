@@ -135,8 +135,8 @@
                                     <next>
                                       <block type="robot_delay" id="34" inline="true">
                                         <value name="DELAY">
-                                          <block type="variables_get" id="35">
-                                            <field name="VAR">prank</field>
+                                          <block type="math_number" id="55">
+                                            <field name="NUM">3000</field>
                                           </block>
                                         </value>
                                         <next>
@@ -160,7 +160,7 @@
                                                       <block type="oled_setcursor" id="41" inline="true">
                                                         <value name="STARTX">
                                                           <block type="math_number" id="42">
-                                                            <field name="NUM">30</field>
+                                                            <field name="NUM">10</field>
                                                           </block>
                                                         </value>
                                                         <value name="STARTY">
@@ -175,12 +175,12 @@
                                                               <block type="oled_setcursor" id="45" inline="true">
                                                                 <value name="STARTX">
                                                                   <block type="math_number" id="46">
-                                                                    <field name="NUM">30</field>
+                                                                    <field name="NUM">10</field>
                                                                   </block>
                                                                 </value>
                                                                 <value name="STARTY">
                                                                   <block type="math_number" id="47">
-                                                                    <field name="NUM">30</field>
+                                                                    <field name="NUM">60</field>
                                                                   </block>
                                                                 </value>
                                                                 <next>
